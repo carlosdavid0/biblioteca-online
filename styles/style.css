@@ -63,10 +63,16 @@ header button:hover {
   justify-content: center;
   padding: 15px;
 }
+.servicos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .servico{
   padding: 15px;
-  text-align: center;
+
 }
 
 .maior {
@@ -96,6 +102,10 @@ header button:hover {
   }
 
   .servicos{
+    padding-left: 130px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
