@@ -1,0 +1,10 @@
+#myCarousel a{color: #FFF !important; border: none; text-decoration: none;}
+#myCarousel a:hover{text-decoration: none;}
+#myCarousel h1{ font-weight: bold; margin-bottom: 0px; color:#C5F996;}
+#myCarousel .bg{height: 100%; display: block; position: absolute; width: 100%; background-image: url("../img/bg_pixel.png"); }
+#myCarousel .carousel-caption p {  margin-bottom: 0px;  font-size: 28px;  line-height: 1.4; }
+@media only screen and (max-width:760px){#myCarousel .carousel-caption{background:none; display: none;} .carousel-indicators{bottom: -3px;}}
+
+#banner_noticia .noticiadestaque a{font-size: 22px; color: #f0961c}
+#banner_noticia .noticiadestaque p{color: #546068; font-size: 14px;  margin: 0px;}
+#banner_noticia .noticiadestaque .data{color: #929292; margin-bottom: 10px;}
