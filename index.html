@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Biblioteca Online</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
     />
-    <link rel="stylesheet" href="./styles//home.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/slide.css">
+
   </head>
   <body>
     <div id="home">
       <header>
-        <div class="alt">
-          <img
-            src="https://aluno.seduc.ce.gov.br/assets/img/aluno_online.png"
-            alt="Biblioteca Online"
-          />
+        <div class="maior">
+          <img src="./assets/logo grande.svg" alt="Biblioteca Online" />
         </div>
-        <div class="mini">
-          <img
-            src="https://aluno.seduc.ce.gov.br/assets/img/aluno_online_mini.png"
-            alt="Biblioteca Online"
-          />
+        <div class="menor">
+          <img src="./assets/logo grande.svg" alt="Biblioteca Online" />
         </div>
-        <button class="acess">
-          <i class="fa fa-key"></i>
-          <h3>Acessar</h3>
-        </button>
+       <div class="acesso">
+        <a  href="https://aluno.seduc.ce.gov.br/auth">
+          <button>
+            <i class="fa fa-key"></i> ACESSAR</a>
+          </button>
+       </div>
+      
       </header>
+      <main>
+        <div class="inicio">
+          <h3>Confira alguns dos recursos disponíveis para os alunos da rede estadual:</h3>
+        </div>
+
+       
+      </main>
     </div>
+
+    <script src="scripts/slide.js"></script>
   </body>
 </html>
