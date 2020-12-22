@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+::-webkit-scrollbar-track {
+  background-color: #429c36;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #429c36;
+}
+::-webkit-scrollbar-thumb {
+  background: #429c36;
+}
 h1,
 h2,
 h3,
@@ -103,7 +112,7 @@ header button:hover {
   }
 
   .servicos{
-    padding-left: 130px;
+    padding: 0px 0px 0px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
