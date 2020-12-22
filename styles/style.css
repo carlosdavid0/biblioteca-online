@@ -57,6 +57,16 @@ header button:hover {
   padding: 15px;
   background: #cfe9cf;
 }
+.servicos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.servico{
+  padding: 15px;
+}
 
 .maior {
   display: none;
