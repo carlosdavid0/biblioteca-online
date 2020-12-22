@@ -57,6 +57,9 @@ header button:hover {
   color: #f4f4f4;
   background-color: #395f34;
 }
+.servicos h2{
+  color: #429c36;
+}
 .menor img {
   width: 350px;
 }
