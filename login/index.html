@@ -10,7 +10,7 @@
   <body>
     <div id="login">
       <div></div>
-      <header>
+      <header class="login">
         <div class="maior">
           <img src="../assets/logo grande.svg" alt="Biblioteca Online" />
         </div>
@@ -20,14 +20,20 @@
     </header>
 
       <main>
-        <h1>Login</h1>
+        <div class="title">
+          <h1>Login</h1>
+        </div>
         <form action="" method="post">
           <hgroup>
-            <input type="text" name="cred" id="cred" required />
+            <input type="text" name="cred" id="cred" required  placeholder="Matricula , CPF , E-Mail"/>
           </hgroup>
 
           <hgroup>
-            <input type="password" name="pass" id="pass" required />
+            <input type="password" name="pass" id="pass" required placeholder="Senha "/>
+          </hgroup>
+          <hgroup class="button"> 
+            <button class="acesso">Acessar</button>
+            <button class="volta"> Voltar para home </button>
           </hgroup>
         </form>
       </main>
